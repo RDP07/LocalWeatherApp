@@ -13,7 +13,7 @@ $(document).ready(function() {
     async: false,
     dataType: 'json',
     success: function(data) {
-      country = data.country;
+      state = data.region;
       city = data.city;
       loc = data.loc;
     }
@@ -22,7 +22,7 @@ $(document).ready(function() {
   var lat = "lat=" + split[0];
   var lon = "&lon=" + split[1];
   var weatherURL = openWeatherMap + lat + lon + apiKey + units;
-  $("#loc").html(city + ", " + country);
+  $("#loc").html(city + ", " + region);
 
   var description = {};
   var celcius = {};
