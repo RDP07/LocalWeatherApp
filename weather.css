@@ -1,0 +1,51 @@
+<style>
+
+body {
+  }  
+
+.content {
+  text-align: center; 
+  background: rgba(0, 75, 100, .5);
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 70px;
+  color:white;
+}
+
+#loc {
+  font-family: 'Yellowtail', monospace;
+  font-size: 60px;
+  text-shadow: 0px 4px black;
+}
+
+#cel, #far {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 36px;  
+}
+
+.icon {
+  margin: 0px;
+  padding: 0px;
+}
+
+#weather {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 24px;
+  margin: 0 auto;
+  padding-bottom: 17px;
+}
+
+.action-button {
+  position: relative;
+  padding: 5px 20px;
+  margin: 0px 0px 15px 0px;
+  font-size: 22px;
+  border-radius: 10px;
+  font-family: 'Cinzel', serif;
+  background: #3498DB;
+  border: 0px;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px, -2px #2980B9;
+  color: #FFF;
+}
+</style>
