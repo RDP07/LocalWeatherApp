@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   var loc = {};
   var city = {};
-  var country = {};
+  var state = {};
 
   $.ajax({
     url: getIP,
@@ -22,7 +22,7 @@ $(document).ready(function() {
   var lat = "lat=" + split[0];
   var lon = "&lon=" + split[1];
   var weatherURL = openWeatherMap + lat + lon + apiKey + units;
-  $("#loc").html(city + ", " + region);
+  $("#loc").html(city + ", " + state);
 
   var description = {};
   var celcius = {};
