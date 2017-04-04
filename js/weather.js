@@ -58,21 +58,21 @@ $(document).ready(function() {
   });
 
   if (code >= 800 && code <= 801) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/clear.jpg) no-repeat center bottom / cover fixed');
+    $('body').css('background', 'url(images/clear.jpg) no-repeat center bottom / cover fixed');
   } else if (code >= 802 && code <= 804) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/cloudy.jpg) no-repeat center bottom / cover fixed');
+    $('body').css('background', 'url(images/cloudy.jpg) no-repeat center bottom / cover fixed');
   } else if (code >= 500 && code <= 531) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/rain.jpg) no-repeat center center / cover fixed');
+    $('body').css('background', 'url(images/rain.jpg) no-repeat center center / cover fixed');
   } else if (code >= 200 && code <= 232) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/thunderstorm.jpg) no-repeat center bottom / cover fixed');
+    $('body').css('background', 'url(images/thunderstorm.jpg) no-repeat center bottom / cover fixed');
   } else if (code >= 600 && code <= 622) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/snow.jpg) no-repeat center bottom / cover fixed');
+    $('body').css('background', 'url(images/snow.jpg) no-repeat center bottom / cover fixed');
   } else if (code >= 701 && code <= 741) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/mist.jpg) no-repeat center bottom / cover fixed');
+    $('body').css('background', 'url(images/mist.jpg) no-repeat center bottom / cover fixed');
   } else if (code >= 300 && code <= 321) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/drizzle.jpg) no-repeat center bottom / cover fixed');
+    $('body').css('background', 'url(images/drizzle.jpg) no-repeat center bottom / cover fixed');
   } else if (code >= 952 && code <= 956) {
-    $('body').css('background', 'url(https://s3.amazonaws.com/rossweather/wind.jpg) no-repeat center bottom / cover fixed');
+    $('body').css('background', 'url(images/wind.jpg) no-repeat center bottom / cover fixed');
   }
 
 });
