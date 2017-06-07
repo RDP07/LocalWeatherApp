@@ -1,0 +1,22 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Local Weather Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDP07/LocalWeatherApp.git"
+  },
+  "author": "RDP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RDP07/LocalWeatherApp/issues"
+  },
+  "homepage": "https://github.com/RDP07/LocalWeatherApp#readme",
+  "dependencies": {
+    "node": "0.0.0"
+  }
+}
